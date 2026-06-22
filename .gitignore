@@ -1,0 +1,9 @@
+node_modules/
+dist/
+public/media/
+.DS_Store
+npm-debug.log*
+project-check-*.png
+参考图/
+联系方式二维码/
+项目流程/
