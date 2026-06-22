@@ -3,6 +3,8 @@ dist/
 public/media/
 .DS_Store
 npm-debug.log*
+.deploy_key
+.deploy_key.pub
 project-check-*.png
 参考图/
 联系方式二维码/
