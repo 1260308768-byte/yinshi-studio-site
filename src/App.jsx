@@ -80,7 +80,7 @@ const projects = [
       '沉淀 SOP 与复用模板',
     ],
     tags: ['AI工作流图', '提示词库', '自动化节点', '交接文档'],
-    image: assetUrl('assets/projects/ai-workflow-render.png'),
+    image: assetUrl('assets/projects/ai-workflow-render.jpg'),
     preview: {
       variant: 'workflow',
       badge: 'FLOW',
@@ -103,7 +103,7 @@ const projects = [
       '上线并预留迭代空间',
     ],
     tags: ['首页结构', '视觉系统', '静态页面', '上线包'],
-    image: assetUrl('assets/projects/website-landing-render.png'),
+    image: assetUrl('assets/projects/website-landing-render.jpg'),
     preview: {
       variant: 'website',
       badge: 'WEB',
@@ -126,7 +126,7 @@ const projects = [
       '测试团队真实使用场景',
     ],
     tags: ['工具原型', '数据字段表', '自动提醒', '使用说明'],
-    image: assetUrl('assets/projects/internal-automation-render.png'),
+    image: assetUrl('assets/projects/internal-automation-render.jpg'),
     preview: {
       variant: 'internal',
       badge: 'OPS',
@@ -149,7 +149,7 @@ const projects = [
       '整理成可投放的素材包',
     ],
     tags: ['产品主图', '详情图', '推广视频脚本', '素材包'],
-    image: assetUrl('assets/projects/ecommerce-content-render.png'),
+    image: assetUrl('assets/projects/ecommerce-content-render.jpg'),
     preview: {
       variant: 'commerce',
       badge: 'CONTENT',
@@ -462,6 +462,7 @@ function ProjectCard({ project, revealOrder }) {
           src={project.image}
           alt={`${project.title} 项目视觉图`}
           decoding="async"
+          loading="lazy"
         />
       </div>
     </article>

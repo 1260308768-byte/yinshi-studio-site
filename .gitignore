@@ -1,6 +1,7 @@
 node_modules/
 dist/
 public/media/
+public/assets/projects/*.png
 .DS_Store
 npm-debug.log*
 .deploy_key
